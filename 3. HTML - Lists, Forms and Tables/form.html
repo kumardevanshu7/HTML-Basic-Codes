@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <main>
-        <form action = "backendMSG.html">
+        <form action="submitMSG.html">
 
             <!-- How to create a Form in HTML -->
             <h2> Fill the Details: </h2>
             <!-- In Form, we use Input tag to use various form elements -->
-            Name: <input type = "text" placeholder = "Enter your name">
-            Password: <input type = "password" placeholder = "Enter password">
+            Name: <input type="text" placeholder="Enter your name">
+            Password: <input type="password" placeholder="Enter password">
 
             <br>
             <br>
 
             <!-- how to use label in form : label and input are the pair of form -->
-            <p>Best Friend Name: </p> <input type = "text" placeholder="enter the name">
+            <p>Best Friend Name: </p> <input type="text" placeholder="enter the name">
 
             <!-- putting input tag in 'Label for tag' -->
             <!-- we also use id in input tag to clickable text -->
-            <label for = "11">
-                <input type = "radio" value = "Male" name = "Gender" id = "11"> Male
+            <label for="11">
+                <input type="radio" value="Male" name="Gender" id="11"> Male
             </label>
-            <label for = "12">
-                <input type = "radio" value = "Female" name = "Gender" id = "12"> Female
+            <label for="12">
+                <input type="radio" value="Female" name="Gender" id="12"> Female
             </label>
 
             <!-- Another element in Input form element : Checkbox-->
             <h5>What you like to do right now! </h5>
-            <label for = "id20">
-                <input type="checkbox" value = "Read manga" name = "hobby" id = "id20"> Read Manga
+            <label for="id20">
+                <input type="checkbox" value="Read manga" name="hobby" id="id20"> Read Manga
             </label>
 
-            <label for = "id21">
-                <input type="checkbox" value = "watch anime" name = "hobby" id = "id21"> Watch Anime
+            <label for="id21">
+                <input type="checkbox" value="watch anime" name="hobby" id="id21"> Watch Anime
             </label>
 
             <br><br>
@@ -57,21 +59,18 @@
 
             <!-- How to use textarea as take a Feedback from user -->
             <!-- you can set the height of you feedback box using rows and cols not height and width : For example -->
-            <textarea name="feedback" id = "12" placeholder="Give us your valuable feedback to us!" rows = "5" cols ="120"></textarea>
+            <textarea name="feedback" id="12" placeholder="Give us your valuable feedback to us!" rows="5"
+                cols="120"></textarea>
 
             <br><br>
 
-            
-
             <!-- how to submit the form -->
-            <input type="submit" value="submit">
-
-            
-
-
+            <input type="submit" value="submit"> 
+            <!-- The message will show on same tab because i link the SubmitMSG.html filr in Form Action. You can see in the HTML 3rd Folder -->
 
         </form>
     </main>
 
 </body>
+
 </html>
