@@ -9,7 +9,7 @@
 <body>
     
     <main>
-        <form>
+        <form action = "\action.php">
 
             <!-- How to create a Form in HTML -->
             <h2> Fill the Details: </h2>
@@ -31,6 +31,40 @@
             <label for = "12">
                 <input type = "radio" value = "Female" name = "Gender" id = "12"> Female
             </label>
+
+            <!-- Another element in Input form element : Checkbox-->
+            <h5>What you like to do right now! </h5>
+            <label for = "id20">
+                <input type="checkbox" value = "Read manga" name = "hobby" id = "id20"> Read Manga
+            </label>
+
+            <label for = "id21">
+                <input type="checkbox" value = "watch anime" name = "hobby" id = "id21"> Watch Anime
+            </label>
+
+            <br><br>
+
+            <!-- How to create a Dropdown list in HTML -->
+            <select name="animes" id="animes">
+                <option value="default">choose one</option>
+                <option value="Attack on Titan">Attack on Titan</option>
+                <option value="Asterisk War">Asterisk War"</option>
+                <option value="Mob Physco 100">Mob Physco 100</option>
+                <option value="DeathNote"> DeathNote</option>
+            </select>
+
+            <br><br>
+
+            <!-- How to use textarea as take a Feedback from user -->
+            <!-- you can set the height of you feedback box using rows and cols not height and width : For example -->
+            <textarea name="feedback" id = "12" placeholder="Give us your valuable feedback to us!" rows = "5" cols ="120"></textarea>
+
+            <br><br>
+
+            
+
+            <!-- how to submit the form -->
+            <input type="submit" value="submit">
 
             
 
